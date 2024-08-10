@@ -1,0 +1,68 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --primary: hsl(274, 66%, 36%);
+        --primary-content: white;
+        --primary-inner: hsl(275, 66%, 21%);
+        --primary-focus: hsl(274, 68%, 12%);
+
+        --gray-100: hsla(0, 0%, 20%, 0.1);
+        --gray-200: hsla(0, 0%, 20%, .2);
+        --gray-300: hsla(0, 0%, 20%, .3);
+        --gray-400: hsla(0, 0%, 20%, .4);
+        --gray-500: hsla(0, 0%, 20%, .5);
+        --gray-600: hsla(0, 0%, 20%, .4);
+        --gray-700: hsla(0, 0%, 20%, .7);
+        --gray-800: hsla(0, 0%, 20%, .8);
+        --gray-900: hsl(0, 0%, 20%, .9);
+
+        --background-color: #0e0e0e;
+        --text-color: #f0f0f0;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --primary: hsl(275, 100%, 40%);
+        --primary-focus: hsl(275, 100%, 50%);
+        --primary-inner: hsl(275, 100%, 60%);
+        --primary-content: white;
+
+        --gray-100: #f8f8f8;
+        --gray-200: #e6e6e6;
+        --gray-300: #d5d5d5;
+        --gray-400: #b1b1b1;
+        --gray-500: #909090;
+        --gray-600: #6d6d6d;
+        --gray-700: #464646;
+        --gray-800: #222222;
+        --gray-900: #000000;
+
+        --background-color: #ffffff;
+        --text-color: #1a1a1a;
+    }
+}
+
+body {
+    color-scheme: light dark;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+button {
+    background: var(--gray-600);
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover,
+button:active {
+    background: var(--gray-500);
+}
+
+*:focus {
+    outline-color: var(--primary);
+}
