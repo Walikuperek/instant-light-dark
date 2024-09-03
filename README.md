@@ -2,7 +2,7 @@
 
 This is a repository for a website that demonstrates how to implement instant light and dark mode at your website.
 
-> Visit website at [quak.com.pl/instant-light-dark-mode](https://quak.com.pl/instant-light-dark-mode/)
+> Visit website at [quak.com.pl/instant-light-dark-mode](https://quak.com.pl/instant-light-dark/)
 
 ## Run this website localy
 
